@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputWrapper {
+    padding: 4px;
+}
+.title {
+    margin-top: 30px;
+    /* padding-bottom: 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid gray; */
+    width: 100%;
+}
+.description {
+    /* margin-bottom: 4px; */
+}
+.btnWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 4px; */
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+.btnWrapper :first-child {
+    margin: 16px;
+}
+.dbDisplayWrapper {
+}
+input {
+    /* width: 100px; */
+}
+.SourceDB {
+    display: flex;
+    flex-direction: column;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createBtn {
+    width: 200px;
+    margin-top: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SinkDB {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.selectDB {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.controlerWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
+    width: 100%;
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid gray;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.deleteBtn {
+    margin-top: 24px;
 }

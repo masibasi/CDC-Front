@@ -1,3 +1,8 @@
+#What is this repo?
+> ### This repo is a react-based front-end for CDC_Architecture. 
+
+
+<hr>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

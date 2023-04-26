@@ -9,4 +9,5 @@
 - Spring Server2, 3 (SinkDB)로는 Get Api를 통해 sourceDB → Kafka → SInkDB로 CDC되어 업데이트된 SInkDB의 데이터를 를 **확인**하도록 하였다.
 - Sink1, Sink2에 접근하는 페이지를 각각 나눠 버튼을 눌러 확인이 가능하도록 하였다.
 
-### Server 파일 및 
+### Server 소스코드 및 DATABASE, KAFKA 구축 관련 문서 :
+https://github.com/masibasi/CDC-Architecture
